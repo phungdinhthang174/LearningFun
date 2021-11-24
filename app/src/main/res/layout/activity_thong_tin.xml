@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    tools:context=".ThongTinActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        >
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Các môn đã tham gia "
+            android:id="@+id/btn_Cacmonhoc"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:backgroundTint="#8BC34A"
+            app:iconTint="#F6F4F4"
+             />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_ThongTin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#8BC34A"
+            android:text="Thành tích cá nhân"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:backgroundTint="#8BC34A"
+            app:iconTint="#FDFDFD"
+
+             />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_ChinhSua"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Chỉnh sửa trang cá nhân"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:backgroundTint="#8BC34A"
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_Logout"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Đăng xuất "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:backgroundTint="#8BC34A"
+             />
+    </LinearLayout>
+
+</LinearLayout>

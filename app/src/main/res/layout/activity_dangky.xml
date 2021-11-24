@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/bg"
 
-    tools:context=".SignInActivity">
+    tools:context=".DangkyActivity">
 
     <ImageView
         android:layout_width="150dp"
@@ -57,33 +57,41 @@
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
-
-        <CheckBox
-
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_marginTop="30dp"
+            android:textColorHint="@color/black"
+            android:id="@+id/ed_repassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ghi nhớ ??"
-            android:textSize="20dp"
-            android:id="@+id/ckb_ghinho"
-            />
+            android:hint="Nhớ mật khẩu"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
 
         <Button
-            android:id="@+id/btn_signIn"
+            android:id="@+id/btn_signUp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#ceb1b1"
-            android:text="Đăng nhập"
+            android:text="Đăng ký"
             />
         <Button
-            android:id="@+id/textButton"
-            android:layout_width="100dp"
+            android:id="@+id/btn_Dangnhap"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textAllCaps="false"
-            android:text="Đăng ký"
+            android:text="Đăng nhập"
             android:textSize="16dp"
-            android:layout_marginLeft="280dp"
+            android:layout_marginLeft="270dp"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             />
 

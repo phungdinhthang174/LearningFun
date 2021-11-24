@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".ChinhSuaTTAvtivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="200dp"
+       android:padding="20dp"
+       android:orientation="vertical"
+       >
+
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_marginTop="30dp"
+           android:textColorHint="@color/black"
+           android:id="@+id/ed_hoten"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Họ và Tên"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               />
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_marginTop="30dp"
+           android:textColorHint="@color/black"
+           android:id="@+id/ed_ngaySinh"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Ngày sinh"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               />
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_marginTop="30dp"
+           android:textColorHint="@color/black"
+           android:id="@+id/ed_email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Email"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               />
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_marginTop="30dp"
+           android:textColorHint="@color/black"
+           android:id="@+id/ed_sdt"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Số điện thoại"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               />
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <Button
+           android:id="@+id/btn_SaveTT"
+           android:layout_marginTop="30dp"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="Lưu"
+           android:textColor="@color/black"
+           android:textSize="20dp"
+           app:backgroundTint="#8BC34A"
+           />
+
+   </LinearLayout>
+
+
+</LinearLayout>

@@ -10,11 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningFun">
         <activity
+            android:name=".ChinhSuaTTAvtivity"
+            android:exported="true" />
+        <activity
+            android:name=".ThongTinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DangkyActivity"
+            android:exported="true" />
+        <activity
             android:name=".SignInActivity"
             android:exported="true" />
         <activity
             android:name=".WelcomeScreen"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

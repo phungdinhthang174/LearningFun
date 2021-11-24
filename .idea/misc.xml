@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_chinh_sua_ttavtivity.xml" value="0.3484375" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dangky.xml" value="0.3625" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_main.xml" value="0.20153985507246377" />
-        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_sign_in.xml" value="0.16893115942028986" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_thong_tin.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_screen.xml" value="0.16893115942028986" />
       </map>
     </option>

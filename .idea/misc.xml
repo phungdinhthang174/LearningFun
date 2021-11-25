@@ -3,12 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable-xhdpi/blue_conner.xml" value="0.37864583333333335" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable-xhdpi/blue_conner2.xml" value="0.37864583333333335" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable/brow_conner.xml" value="0.37864583333333335" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_chinh_sua_ttavtivity.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dangky.xml" value="0.3625" />
-        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_main.xml" value="0.20153985507246377" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_do_vui.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_english.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khactivity.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_math.xml" value="0.3625" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_thong_tin.xml" value="0.3484375" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tv.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcom_screen_tv.xml" value="0.3484375" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_kh.xml" value="0.3484375" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_math.xml" value="0.3484375" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_sceen_dovui.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_screen.xml" value="0.16893115942028986" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_ta.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/item_grid_main.xml" value="0.3625" />
       </map>
     </option>
   </component>

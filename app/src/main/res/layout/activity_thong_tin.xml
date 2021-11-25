@@ -8,14 +8,30 @@
     android:padding="10dp"
     android:background="@drawable/bg"
     tools:context=".ThongTinActivity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin cá nhân"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/brow_conner"
+        />
+
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="250dp"
-        >
+        android:layout_marginTop="150dp">
+
         <Button
 
             android:layout_width="match_parent"

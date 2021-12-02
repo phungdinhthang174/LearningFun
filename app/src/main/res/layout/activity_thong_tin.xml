@@ -23,40 +23,90 @@
         android:paddingEnd="10dp"
         android:background="@drawable/brow_conner"
         />
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/brow_conner"
+
+        >
+
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/r" />
+
+        <TextView
+            android:id="@+id/tv_ht"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+
+            android:text="Phùng Đình Thắng"
+            android:textColor="@color/black" />
+        <TextView
+            android:paddingStart="10dp"
+            android:id="@+id/tv_email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="24dp"
+
+            android:text="thangpdph15150@fpt.edu.vn"
+            android:textColor="@color/black" />
+        <TextView
+            android:paddingStart="10dp"
+            android:id="@+id/tv_ngsinh"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="41dp"
+
+            android:text="17/04/2002"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_sdt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="61dp"
+            android:paddingStart="10dp"
+
+            android:text="01230456741"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
 
 
 
     <LinearLayout
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="80dp">
 
-        <Button
+<!--        <Button-->
 
-            android:layout_width="match_parent"
-            android:layout_height="66dp"
-            android:text="Các môn đã tham gia "
-            android:id="@+id/btn_Cacmonhoc"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            app:backgroundTint="#8BC34A"
-            app:iconTint="#F6F4F4"
-             />
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="66dp"-->
+<!--            android:text="Các môn đã tham gia "-->
+<!--            android:id="@+id/btn_Cacmonhoc"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20dp"-->
+<!--            app:backgroundTint="#8BC34A"-->
+<!--            app:iconTint="#F6F4F4"-->
+<!--             />-->
 
-        <Button
-            android:layout_marginTop="40dp"
-            android:id="@+id/btn_ThongTin"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="#8BC34A"
-            android:text="Thành tích cá nhân"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            app:backgroundTint="#8BC34A"
-            app:iconTint="#FDFDFD"
 
-             />
 
         <Button
             android:layout_marginTop="40dp"
@@ -79,6 +129,19 @@
             android:textSize="20dp"
             app:backgroundTint="#8BC34A"
              />
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_ThongTin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#8BC34A"
+            android:text="giới thiệu"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:backgroundTint="#8BC34A"
+            app:iconTint="#FDFDFD"
+
+            />
     </LinearLayout>
 
 </LinearLayout>

@@ -10,6 +10,100 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningFun">
         <activity
+            android:name=".DoVui.DVLV5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DoVui.DVLV4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DoVui.DVLV3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DoVui.DVLV2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DoVui.DVLV1Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".KhoaHoc.KHLV5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".KhoaHoc.KHLV4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".KhoaHoc.KHLV3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".KhoaHoc.KHLV2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".KhoaHoc.KHLV1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TiengAnh.TALV5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TiengAnh.TALV4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TiengAnh.TALV3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TiengAnh.TALV2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TiengAnh.TALV1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TVLV.TVLV5Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TVLV.TVLV4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TVLV.TVLV3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TVLV.TVLV2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TVLV.TVLVActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ToanLV.ToanLVActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ToanLV.ToanLV2Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToanLV.ToanLV3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ToanLV.ToanLV4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ToanLV.ToanLV5Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Activity2.WelcomeSceenDovuiActivity"
             android:exported="true" />
         <activity
@@ -44,7 +138,13 @@
             android:exported="true" />
         <activity
             android:name=".ThongTinActivity"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DangkyActivity"
             android:exported="true" />

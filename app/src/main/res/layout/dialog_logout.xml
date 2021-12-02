@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/broww_coner"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/brow_conner"
+        android:id="@+id/re_logoutDialog"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc muốn đăng xuất ??"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+
+            android:id="@+id/btn_Yes_logout"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/blue_conner"
+            android:text="Có"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="50dp"
+            />
+        <TextView
+            android:id="@+id/btn_No_logout"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/blue_conner"
+            android:text="Không"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="230dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg"
+
     android:padding="10dp"
-    tools:context=".ChinhSuaTTAvtivity">
+   >
 
 
     <TextView
@@ -40,13 +40,14 @@
            android:layout_marginTop="60dp"
            android:textColorHint="@color/black"
 
-           android:id="@+id/ed_hoten"
+
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Họ và Tên"
            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/ed_hoten"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                />
@@ -55,13 +56,14 @@
        <com.google.android.material.textfield.TextInputLayout
            android:layout_marginTop="30dp"
            android:textColorHint="@color/black"
-           android:id="@+id/ed_ngaySinh"
+
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Ngày sinh"
            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/ed_ngaySinh"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                />
@@ -70,13 +72,14 @@
        <com.google.android.material.textfield.TextInputLayout
            android:layout_marginTop="30dp"
            android:textColorHint="@color/black"
-           android:id="@+id/ed_email"
+
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Email"
            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/ed_email"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                />
@@ -85,13 +88,14 @@
        <com.google.android.material.textfield.TextInputLayout
            android:layout_marginTop="30dp"
            android:textColorHint="@color/black"
-           android:id="@+id/ed_sdt"
+
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Số điện thoại"
            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/ed_sdt"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                />

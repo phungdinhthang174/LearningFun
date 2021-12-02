@@ -3,26 +3,63 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable-v24/blue_conner3.xml" value="0.2557291666666667" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable-xhdpi/blue_conner.xml" value="0.37864583333333335" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable-xhdpi/blue_conner2.xml" value="0.37864583333333335" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/drawable/brow_conner.xml" value="0.37864583333333335" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_chinh_sua_ttavtivity.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dangky.xml" value="0.3625" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_do_vui.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dvlv1.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dvlv2.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dvlv3.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dvlv4.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_dvlv5.xml" value="0.36231884057971014" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_english.xml" value="0.3625" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khactivity.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khlv1.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khlv2.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khlv3.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khlv4.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_khlv5.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_login.xml" value="0.36231884057971014" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_main2.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_math.xml" value="0.3625" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_talv1.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_talv2.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_talv3.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_talv4.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_talv5.xml" value="0.36231884057971014" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_thong_tin.xml" value="0.3484375" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_toan_lvactivity.xml" value="0.22" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tv.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tvlv2.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tvlv3.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tvlv4.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tvlv5.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tvlv6.xml" value="0.22291666666666668" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_tvlvactivity.xml" value="0.36231884057971014" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcom_screen_tv.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_kh.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_math.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_sceen_dovui.xml" value="0.3484375" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_screen.xml" value="0.16893115942028986" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/activity_welcome_ta.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/dialog_answer.xml" value="0.23958333333333334" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/dialog_chucmung.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/dialog_logout.xml" value="0.33" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/dialog_thatbai.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/dialog_thua.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/dialog_win.xml" value="0.20260416666666667" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/gt_layout.xml" value="0.20260416666666667" />
         <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/item_grid_main.xml" value="0.3625" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/toan_lv2.xml" value="0.36231884057971014" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/toan_lv3.xml" value="0.24895833333333334" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/toan_lv4.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/toan_lv5.xml" value="0.23697916666666666" />
+        <entry key="..\:/DuAn1/DuAn1/app/src/main/res/layout/win.xml" value="0.20260416666666667" />
       </map>
     </option>
   </component>

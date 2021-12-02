@@ -12,11 +12,6 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.example.learningfun.Activity.DoVuiActivity;
-import com.example.learningfun.Activity.EnglishActivity;
-import com.example.learningfun.Activity.KHActivity;
-import com.example.learningfun.Activity.MathActivity;
-import com.example.learningfun.Activity.TvActivity;
 import com.example.learningfun.Activity2.WelcomScreenTv;
 import com.example.learningfun.Activity2.WelcomeKhActivity;
 import com.example.learningfun.Activity2.WelcomeMath;

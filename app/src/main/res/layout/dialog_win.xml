@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/broww_coner"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/brow_conner"
+        android:id="@+id/re_logoutDialog"
+        >
+
+        <TextView
+
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="YOU WIN!!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/win" />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -80,27 +80,43 @@ public class TALV4Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("are",true));
+        answerList.add(new Answer("is",false));
+        answerList.add(new Answer("am",false));
+        answerList.add(new Answer("the",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("class",false));
+        answerList1.add(new Answer("father",false));
+        answerList1.add(new Answer("school",false));
+        answerList1.add(new Answer("name",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("a",false));
+        answerList2.add(new Answer("on",false));
+        answerList2.add(new Answer("in",true));
+        answerList2.add(new Answer("the",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("I'm fine thanks",false));
+        answerList3.add(new Answer("I'm five thanks",false));
+        answerList3.add(new Answer("I'm eight years old",true));
+        answerList3.add(new Answer("Ok",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("old",false));
+        answerList4.add(new Answer("are",false));
+        answerList4.add(new Answer("nice to meet you",false));
+        answerList4.add(new Answer("I'm",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"There ........five people in my family.",answerList));
+        questionList.add(new Question(2,"A: what is your.........?\n" +
+                "B: I am Linh",answerList1));
+        questionList.add(new Question(3,"My house is ........the village.",answerList2));
+        questionList.add(new Question(4,"How old are you Mai?",answerList3));
+        questionList.add(new Question(5,"Hello,________ Mai:",answerList4));
         return questionList;
 
     }
@@ -165,6 +181,10 @@ public class TALV4Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

@@ -82,27 +82,42 @@ public class KHLV2Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Tôm",true));
+        answerList.add(new Answer("Gạo",false));
+        answerList.add(new Answer("Khoai lang",false));
+        answerList.add(new Answer("Ngô",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Vitamin E",false));
+        answerList1.add(new Answer("Vitamin C",false));
+        answerList1.add(new Answer("Vitamin D",false));
+        answerList1.add(new Answer("Vitamin E",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Để đủ các loại vitamin",false));
+        answerList2.add(new Answer("Để đủ chất khoáng",false));
+        answerList2.add(new Answer("Tất cả các ý trên",true));
+        answerList2.add(new Answer("Chống táo bón",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Không khí, ánh sáng, nhiệt độ thích hợp",false));
+        answerList3.add(new Answer("Thức ăn",false));
+        answerList3.add(new Answer("Nước uống",false));
+        answerList3.add(new Answer("Tất cả các ý trên",true));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("giấy",false));
+        answerList4.add(new Answer(" vải bông",false));
+        answerList4.add(new Answer("Tất cả các ý trên",false));
+        answerList4.add(new Answer("Chai thủy tinh",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Trong một số thức ăn dưới đây, thức ăn nào không chứa chất bột đường?",answerList));
+        questionList.add(new Question(2,"Trong cà rốt có chứa nhiều viatamin gì ?",answerList1));
+        questionList.add(new Question(3,"Vì sao nên ăn rau và và quả chín hằng ngày?",answerList2));
+        questionList.add(new Question(4,"Như mọi sinh vật khác, con người cần gì để duy trì sự sống của mình?",answerList3));
+        questionList.add(new Question(5,"Vật nào dưới đây không cho nước thấm qua?",answerList4));
         return questionList;
 
     }
@@ -167,6 +182,10 @@ public class KHLV2Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

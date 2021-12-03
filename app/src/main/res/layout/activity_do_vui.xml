@@ -11,6 +11,7 @@
 
 
     <TextView
+        android:id="@+id/title_dv"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:textSize="20dp"

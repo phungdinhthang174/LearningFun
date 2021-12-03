@@ -88,34 +88,30 @@ public class ToanLVActivity extends AppCompatActivity implements View.OnClickLis
         answerList1.add(new Answer("7",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("7",true));
+        answerList2.add(new Answer("7",false));
         answerList2.add(new Answer("1",false));
-        answerList2.add(new Answer("3",false));
+        answerList2.add(new Answer("3",true));
         answerList2.add(new Answer("4",false));
 
         List<Answer> answerList3 = new ArrayList<>();
         answerList3.add(new Answer("7",false));
         answerList3.add(new Answer("1",false));
-        answerList3.add(new Answer("3",true));
+        answerList3.add(new Answer("10",true));
         answerList3.add(new Answer("4",false));
         List<Answer> answerList4 = new ArrayList<>();
         answerList4.add(new Answer("7",false));
         answerList4.add(new Answer("8",false));
-        answerList4.add(new Answer("3",false));
-        answerList4.add(new Answer("10",true));
+        answerList4.add(new Answer("4",false));
+        answerList4.add(new Answer("3",true));
 
-        List<Answer> answerList5 = new ArrayList<>();
-        answerList5.add(new Answer("7",false));
-        answerList5.add(new Answer("1",false));
-        answerList5.add(new Answer("3",true));
-        answerList5.add(new Answer("4",false));
+
 
 
         questionList.add(new Question(1," Kết quả của phép tính 2+2 là :",answerList));
         questionList.add(new Question(2,"Kết quả của phép tính 5+2 là :",answerList1));
         questionList.add(new Question(3,"Kết quả của phép tính 8-5 là :",answerList2));
-        questionList.add(new Question(3,"Kết quả của phép tính 6+4 là :",answerList2));
-        questionList.add(new Question(3,"Kết quả của phép tính 10-7 là :",answerList2));
+        questionList.add(new Question(4,"Kết quả của phép tính 6+4 là :",answerList3));
+        questionList.add(new Question(5,"Kết quả của phép tính 10-7 là :",answerList4));
         return questionList;
 
     }

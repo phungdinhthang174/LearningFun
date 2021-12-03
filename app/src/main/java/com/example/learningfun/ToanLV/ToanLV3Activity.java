@@ -75,27 +75,42 @@ public class ToanLV3Activity extends AppCompatActivity implements View.OnClickLi
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("40",false));
+        answerList.add(new Answer("60",false));
+        answerList.add(new Answer("55",true));
+        answerList.add(new Answer("75",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("101",false));
+        answerList1.add(new Answer("164",false));
+        answerList1.add(new Answer("125",false));
+        answerList1.add(new Answer("110",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("140",true));
+        answerList2.add(new Answer("130",false));
+        answerList2.add(new Answer("120",false));
+        answerList2.add(new Answer("110",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("110",false));
+        answerList3.add(new Answer("100",false));
+        answerList3.add(new Answer("140",false));
+        answerList3.add(new Answer("150",true));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("120",false));
+        answerList4.add(new Answer("175",true));
+        answerList4.add(new Answer("155",false));
+        answerList4.add(new Answer("140",false));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Kết quả của phép tính 100-45 là ?",answerList));
+        questionList.add(new Question(2,"Kết quả của phép tính 60+50 là :",answerList1));
+        questionList.add(new Question(3,"Kết quả của phép tính 70+70 là :",answerList2));
+        questionList.add(new Question(4,"Kết quả của phép tính 175-25 là :",answerList3));
+        questionList.add(new Question(5,"Kết quả của phép tính 120+55 là :",answerList4));
         return questionList;
 
     }

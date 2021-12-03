@@ -80,27 +80,42 @@ public class DVLV4Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("2 ông và 1 bà",true));
+        answerList.add(new Answer("2 ông và 2 bà",false));
+        answerList.add(new Answer("2 bà và 1 ông",false));
+        answerList.add(new Answer("3 ông và 1 bà",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Nho, dừa, xoài, ổi, sung",false));
+        answerList1.add(new Answer("Cầu, dừa, đu đủ, xoài, sung",true));
+        answerList1.add(new Answer("Cầu, đu đủ, ổi, na, sầu riêng",false));
+        answerList1.add(new Answer("Cam, ổi, lê, táo, đu đủ",false));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("1",false));
+        answerList2.add(new Answer("3",false));
+        answerList2.add(new Answer("2",true));
+        answerList2.add(new Answer("4",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Người lì xì",false));
+        answerList3.add(new Answer("Người xông nhà (xông đất)",true));
+        answerList3.add(new Answer("Người mở hàn",false));
+        answerList3.add(new Answer("Người trong gia đình",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Thần bể nước",false));
+        answerList4.add(new Answer("Thần thổ địa",false));
+        answerList4.add(new Answer("Thần tài",false));
+        answerList4.add(new Answer("Thần bếp",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Theo truyền thuyết dân gian, Nhà Táo có những ai?",answerList));
+        questionList.add(new Question(2,"Mâm ngũ quả cúng ngày tết của miền Nam là những trái nào?",answerList1));
+        questionList.add(new Question(3,"Có mấy loại bánh chưng?",answerList2));
+        questionList.add(new Question(4,"Người đầu tiên đến chơi nhà trong dịp năm mới được gọi là gì?",answerList3));
+        questionList.add(new Question(5,"Ông Táo là vị thần gì trong nhà?",answerList4));
         return questionList;
 
     }
@@ -165,6 +180,10 @@ public class DVLV4Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

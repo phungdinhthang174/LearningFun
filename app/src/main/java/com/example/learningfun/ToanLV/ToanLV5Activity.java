@@ -77,27 +77,42 @@ public class ToanLV5Activity extends AppCompatActivity implements View.OnClickLi
     private List<Question> getListQuestion() {
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A", true));
-        answerList.add(new Answer("B", false));
-        answerList.add(new Answer("C", false));
-        answerList.add(new Answer("D", false));
+        answerList.add(new Answer("4",true));
+        answerList.add(new Answer("5",false));
+        answerList.add(new Answer("6",false));
+        answerList.add(new Answer("7",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A", false));
-        answerList1.add(new Answer("B", false));
-        answerList1.add(new Answer("C", false));
-        answerList1.add(new Answer("D", true));
+        answerList1.add(new Answer("2",false));
+        answerList1.add(new Answer("3",false));
+        answerList1.add(new Answer("6",false));
+        answerList1.add(new Answer("7",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A", false));
-        answerList2.add(new Answer("B", false));
-        answerList2.add(new Answer("C", true));
-        answerList2.add(new Answer("D", false));
+        answerList2.add(new Answer("7",false));
+        answerList2.add(new Answer("1",false));
+        answerList2.add(new Answer("3",true));
+        answerList2.add(new Answer("4",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("7",false));
+        answerList3.add(new Answer("1",false));
+        answerList3.add(new Answer("10",true));
+        answerList3.add(new Answer("4",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("7",false));
+        answerList4.add(new Answer("8",false));
+        answerList4.add(new Answer("4",false));
+        answerList4.add(new Answer("3",true));
 
 
-        questionList.add(new Question(1, "ABCD", answerList));
-        questionList.add(new Question(2, "ABCD", answerList1));
-        questionList.add(new Question(3, "ABCD", answerList2));
+
+
+        questionList.add(new Question(1," Kết quả của phép tính 2x2 là :",answerList));
+        questionList.add(new Question(2,"Kết quả của phép tính 5x2 là :",answerList1));
+        questionList.add(new Question(3,"Kết quả của phép tính 8/2 là :",answerList2));
+        questionList.add(new Question(4,"Kết quả của phép tính 12/4 là :",answerList3));
+        questionList.add(new Question(5,"Kết quả của phép tính 10-7 là :",answerList4));
         return questionList;
 
     }
@@ -163,6 +178,7 @@ public class ToanLV5Activity extends AppCompatActivity implements View.OnClickLi
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+
             }
         });
 

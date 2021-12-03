@@ -80,27 +80,44 @@ public class TVLV4Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("chạy nhảy, nhún nhảy, bay nhảy",true));
+        answerList.add(new Answer("chăm chỉ, khéo léo, dẻo dai",false));
+        answerList.add(new Answer("núi đồi, bay lượn, mênh mông",false));
+        answerList.add(new Answer("dòng sông, cánh đồng, mây trời",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Tin vào bản thân mình",false));
+        answerList1.add(new Answer("Coi trọng mình và xem thường người khác",false));
+        answerList1.add(new Answer("Đánh giá mình quá cao và coi thường người khác",false));
+        answerList1.add(new Answer("Coi trọng và giữ gìn phẩm giá của mình",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("1.Báo hiệu bộ phận đứng sau là lời nói trực tiếp của nhân vật",false));
+        answerList2.add(new Answer("2.Báo hiệu một sự liệt kê",false));
+        answerList2.add(new Answer("Cả 2 ý 1 và 2 đều đúng",true));
+        answerList2.add(new Answer("3Báo hiệu bộ phận đứng sau giải thích cho bộ phận đứng trước",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("giúp mẹ nhổ củ cà rốt.",false));
+        answerList3.add(new Answer("miệt vườn nhiều trái ngọt.",false));
+        answerList3.add(new Answer("cặm cụi may áo cho bé.",true));
+        answerList3.add(new Answer("nhảy nhót trên cành.",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Bên đường, cây cối",false));
+        answerList4.add(new Answer("xanh um",false));
+        answerList4.add(new Answer("Bên đường",false));
+        answerList4.add(new Answer("Cây cối",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Dòng nào chỉ bao gồm động từ :",answerList));
+        questionList.add(new Question(2,"Dòng nào dưới đây nêu đúng nghĩa của từ tự trọng?",answerList1));
+        questionList.add(new Question(3,"Dấu hai chấm trong chuỗi câu sau có tác dụng gì ?\n" +
+                "Cô hỏi: \"Sao trò không chịu làm bài ?\"",answerList2));
+        questionList.add(new Question(4,"Chọn vế còn thiếu để hoàn thành câu đúng:\n" +
+                "\"Mẹ.......................\"",answerList3));
+        questionList.add(new Question(5,"Tìm chủ ngữ trong câu sau: \"Bên đường, cây cối xanh um.\"",answerList4));
         return questionList;
 
     }

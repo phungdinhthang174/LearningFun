@@ -81,27 +81,42 @@ public class KHLV4Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Một loại vi khuẩn",false));
+        answerList.add(new Answer("Một loại vi-rút",false));
+        answerList.add(new Answer("Một loại côn trùng",false));
+        answerList.add(new Answer("Một loại ký sinh trùng",true));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Muỗi vằn",false));
+        answerList1.add(new Answer("Muỗi anophel",true));
+        answerList1.add(new Answer("Bọ ngậy",false));
+        answerList1.add(new Answer("Tất cả các đáp án trên",false));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Vi khuẩn",false));
+        answerList2.add(new Answer("Sán",false));
+        answerList2.add(new Answer("Virut",true));
+        answerList2.add(new Answer("Ký sinh trùng",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Từ máu người này dính vào người khác",false));
+        answerList3.add(new Answer("Muỗi hút máu các vật bị bệnh và truyền vi-rút gây bệnh sang người.",true));
+        answerList3.add(new Answer("Muỗi đẻ trứng và lây sang cho người",false));
+        answerList3.add(new Answer("Từ nước bọt người này bắn vào người khác",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Giữ vệ sinh nhà ở",false));
+        answerList4.add(new Answer("Có thói quen ngủ màn",false));
+        answerList4.add(new Answer("Không để ao tù, nước đọng",false));
+        answerList4.add(new Answer("Thực hiện tất cả các việc trên",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Tác nhân gây ra bệnh sốt rét là gì?",answerList));
+        questionList.add(new Question(2,"Con vật trung gian truyền bệnh sốt rét từ NGƯỜI BỆNH sang NGƯỜI LÀNH tên là gì?",answerList1));
+        questionList.add(new Question(3,"Tác nhân gây ra bệnh SỐT XUẤT HUYẾT là gì?",answerList2));
+        questionList.add(new Question(4,"Tác nhân gây ra bệnh viêm não là gì?",answerList3));
+        questionList.add(new Question(5,"Nên làm gì để phòng bệnh viêm não?",answerList4));
         return questionList;
 
     }
@@ -166,6 +181,10 @@ public class KHLV4Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

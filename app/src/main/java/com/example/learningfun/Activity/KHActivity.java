@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 import com.example.learningfun.KhoaHoc.KHLV1Activity;
@@ -68,5 +70,15 @@ public class KHActivity extends AppCompatActivity {
 
             }
         });
+        Animation btn1 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.uptodown);
+        btnLv1.startAnimation(btn1);
+        Animation btn2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.lefttoright);
+        btnLV2.startAnimation(btn2);
+        Animation btn3 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.righttoleft);
+        btnLv3.startAnimation(btn3);
+        Animation btn4 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.lefttoright);
+        btnLv4.startAnimation(btn4);
+        Animation btn5 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.downtoup);
+        btnLv5.startAnimation(btn5);
     }
 }

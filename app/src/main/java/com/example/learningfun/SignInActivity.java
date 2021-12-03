@@ -3,6 +3,7 @@ package com.example.learningfun;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,7 @@ public class SignInActivity extends AppCompatActivity {
     Button buttonSignIn,buttonnextDk;
     DAO_Login dao_login;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,8 @@ public class SignInActivity extends AppCompatActivity {
         buttonSignIn = findViewById(R.id.btn_signIn);
         dao_login = new DAO_Login(this);
 
+
+
         buttonnextDk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +40,7 @@ public class SignInActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         DangNhap();
 
     }

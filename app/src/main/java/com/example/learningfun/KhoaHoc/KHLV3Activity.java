@@ -81,27 +81,42 @@ public class KHLV3Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Tất cả các đáp án trên",true));
+        answerList.add(new Answer("Thể lỏng",false));
+        answerList.add(new Answer("Thể rắn",false));
+        answerList.add(new Answer("Thể khí",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Nhờ có khí cacbonic",false));
+        answerList1.add(new Answer("Nhờ có oxi",false));
+        answerList1.add(new Answer("Nhờ có hơi nước",false));
+        answerList1.add(new Answer("Nhờ có gió",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Nước sông",false));
+        answerList2.add(new Answer("Nước mưa",false));
+        answerList2.add(new Answer("Nước máy",true));
+        answerList2.add(new Answer("Nước giếng",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Do uốn cong các vật",false));
+        answerList3.add(new Answer("Do nén các vật",false));
+        answerList3.add(new Answer("Do các vật rung động",true));
+        answerList3.add(new Answer("Do các vật va đập với nhau",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Khí",false));
+        answerList4.add(new Answer("Lỏng",false));
+        answerList4.add(new Answer("Rắn",false));
+        answerList4.add(new Answer("Rắn, lỏng và khí",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Nước trong thiên nhiên tồn tại ở những thể nào?",answerList));
+        questionList.add(new Question(2," Nhờ đâu lá cây lay động được?",answerList1));
+        questionList.add(new Question(3,"Theo em, trong các loại nước dưới đây, nước nào dùng tốt cho sức khỏe?",answerList2));
+        questionList.add(new Question(4," Âm thanh do đâu phát ra?",answerList3));
+        questionList.add(new Question(5," Âm thanh truyền được trong những môi trường nào ?",answerList4));
         return questionList;
 
     }
@@ -166,6 +181,10 @@ public class KHLV3Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

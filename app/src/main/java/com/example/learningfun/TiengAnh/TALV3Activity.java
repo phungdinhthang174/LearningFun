@@ -80,27 +80,42 @@ public class TALV3Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Con rắn",false));
+        answerList.add(new Answer("Con rết",true));
+        answerList.add(new Answer("Con dế",false));
+        answerList.add(new Answer("Con nhện",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("That is a horses",false));
+        answerList1.add(new Answer("That is an oranges",false));
+        answerList1.add(new Answer("The slugs is slow",false));
+        answerList1.add(new Answer("That is a mouse",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Dấu cộng",false));
+        answerList2.add(new Answer("Dấu trừ",false));
+        answerList2.add(new Answer("Trò chơi ném vòng",true));
+        answerList2.add(new Answer("Bóng đá",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Cái cốc",false));
+        answerList3.add(new Answer("Cái kéo",false));
+        answerList3.add(new Answer("Con dao",true));
+        answerList3.add(new Answer("Cái thớt",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Hòn đá",false));
+        answerList4.add(new Answer("Chơi",false));
+        answerList4.add(new Answer("Ném",false));
+        answerList4.add(new Answer("Quăng",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Centipede là gì",answerList));
+        questionList.add(new Question(2," Câu nào đúng với câu\"Kia có phải là 1 con chuột không?\"??",answerList1));
+        questionList.add(new Question(3," \"Quoit\" nghĩa là gì??",answerList2));
+        questionList.add(new Question(4,"\"Knife\" nghĩa là gì??",answerList3));
+        questionList.add(new Question(5,"\"Toss\" là gì?? :",answerList4));
         return questionList;
 
     }
@@ -165,6 +180,10 @@ public class TALV3Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

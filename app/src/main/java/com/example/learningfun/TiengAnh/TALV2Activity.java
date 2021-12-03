@@ -79,27 +79,45 @@ public class TALV2Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("m",true));
+        answerList.add(new Answer("a",false));
+        answerList.add(new Answer("d",false));
+        answerList.add(new Answer("c",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("ee",false));
+        answerList1.add(new Answer("ae",false));
+        answerList1.add(new Answer("oo",false));
+        answerList1.add(new Answer("ea",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("a",false));
+        answerList2.add(new Answer("o",false));
+        answerList2.add(new Answer("u",true));
+        answerList2.add(new Answer("i",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("ea",false));
+        answerList3.add(new Answer("no",false));
+        answerList3.add(new Answer("na",true));
+        answerList3.add(new Answer("ee",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("h",false));
+        answerList4.add(new Answer("c",false));
+        answerList4.add(new Answer("a",false));
+        answerList4.add(new Answer("d",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Điền từ còn thiếu:\n" +
+                "_ouse(con chuột).",answerList));
+        questionList.add(new Question(2,"Điền từ còn thiếu:\n" +
+                "_ice cr__m(cây kem)",answerList1));
+        questionList.add(new Question(3,"Điền từ còn thiếu:\n" +
+                "tr_ck(xe tải)" ,answerList2));
+        questionList.add(new Question(4,"Điền từ còn thiếu:\n Ba__na(quả chuối)",answerList3));
+        questionList.add(new Question(5,"Điền từ còn thiếu:\n Pan_a(gấu trúc)",answerList4));
         return questionList;
 
     }
@@ -164,6 +182,10 @@ public class TALV2Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

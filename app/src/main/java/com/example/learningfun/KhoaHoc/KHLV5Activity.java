@@ -84,27 +84,42 @@ public class KHLV5Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Những ảnh hưởng của tự nhiên đến con người và môi trường sống",false));
+        answerList.add(new Answer("Tất cả các ý trên ",true));
+        answerList.add(new Answer("Các sự vật, hiện tượng tự nhiên",false));
+        answerList.add(new Answer("Các quy luật tự nhiên",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Vận hành nhà máy sản xuất phân bón để sản xuất phân",true));
+        answerList1.add(new Answer("Theo dõi nuôi cấy mô cây trồng trong phòng thí nghiệm",false));
+        answerList1.add(new Answer("Làm thí nghiệm điều chế chất mới",false));
+        answerList1.add(new Answer("Lấy mẫu đất để phân loại đất trồng",false));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Cơ thể bình thường",false));
+        answerList2.add(new Answer("Cơ thể mệt mỏi",false));
+        answerList2.add(new Answer("Cơ thể sẽ chết",true));
+        answerList2.add(new Answer("Cơ thể khỏe mạnh",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Cơ thể sẽ thiếu nước",false));
+        answerList3.add(new Answer("Tất cả các ý",true));
+        answerList3.add(new Answer("Ta có thể sẽ bị chết",false));
+        answerList3.add(new Answer("Ta sẽ cảm thấy khát",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("60%",false));
+        answerList4.add(new Answer("65%",false));
+        answerList4.add(new Answer("50%",false));
+        answerList4.add(new Answer("70%",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Khoa học tự nhiên nghiên cứu về lĩnh vực nào dưới đây?",answerList));
+        questionList.add(new Question(2,"Theo dõi nuôi cấy mô cây trồng trong phòng thí nghiệm",answerList1));
+        questionList.add(new Question(3,"Điều gì sẽ xảy ra nếu một trong các cơ quan của con người ngừng hoạt động?",answerList2));
+        questionList.add(new Question(4,"Nếu không uống nước 3 ngày chúng ta sẽ bị gì?",answerList3));
+        questionList.add(new Question(5,"Nước chiếm bao nhiêu phần trăm cơ thể con người ??",answerList4));
         return questionList;
 
     }
@@ -169,6 +184,10 @@ public class KHLV5Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

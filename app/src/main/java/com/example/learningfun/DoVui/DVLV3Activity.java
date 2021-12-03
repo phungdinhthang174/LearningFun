@@ -80,27 +80,47 @@ public class DVLV3Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Sóc Trăng, Đồng Nai, Sơn La.",true));
+        answerList.add(new Answer("Sơn La, Tây Ninh, Đồng Nai.",false));
+        answerList.add(new Answer("Đồng Nai, Sóc Trăng, Thái Nguyên.",false));
+        answerList.add(new Answer("Sóc Trăng, Sơn La, Phú Quốc",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Sóc Trăng; Trà Vinh",false));
+        answerList1.add(new Answer("Tiền Giang, Bạc Liêu",true));
+        answerList1.add(new Answer("Cần Thơ; An Giang",false));
+        answerList1.add(new Answer("Hà Giang; Kiên Giang",false));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Bình Định; Quảng Nam",false));
+        answerList2.add(new Answer("Kiên Giang, Bình Phước",false));
+        answerList2.add(new Answer("Cần Thơ, Sóc Trăng",true));
+        answerList2.add(new Answer("Tây Ninh; Vũng Tàu",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Hà Nội",false));
+        answerList3.add(new Answer("Cà Mau",false));
+        answerList3.add(new Answer("Bến Tre",true));
+        answerList3.add(new Answer("TP Hồ Chí Minh",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Phú Thọ",false));
+        answerList4.add(new Answer("Hà Nội",false));
+        answerList4.add(new Answer("Huế",false));
+        answerList4.add(new Answer("TP. Hồ Chí Minh",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Vừa học vừa vui\n" +
+                "Ai biết giúp tui\n" +
+                "Kể tên ba tỉnh\n" +
+                "Có ba con vật hiện ra?",answerList));
+        questionList.add(new Question(2,"Tỉnh nào: Có TIỀN, có BẠC ??",answerList1));
+        questionList.add(new Question(3,"Tỉnh nào : Có THƠ, có TRĂNG ?",answerList2));
+        questionList.add(new Question(4,"Trên trời có ông sao tua.\n" +
+                "Ớ đâu lại có nhiều dừa bạn ơi?",answerList3));
+        questionList.add(new Question(5,"Nơi nào biết mấy tự hào\n" +
+                "Tên vàng chói lọi, thay vào tên xưa?",answerList4));
         return questionList;
 
     }
@@ -165,6 +185,10 @@ public class DVLV3Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

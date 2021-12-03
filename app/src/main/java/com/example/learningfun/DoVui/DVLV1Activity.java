@@ -84,27 +84,45 @@ public class DVLV1Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Con cóc",true));
+        answerList.add(new Answer("Con gà",false));
+        answerList.add(new Answer("Con chó",false));
+        answerList.add(new Answer("Con bò",false));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Con bò",false));
+        answerList1.add(new Answer("Con gà",false));
+        answerList1.add(new Answer("Con chó",false));
+        answerList1.add(new Answer("Con vịt",true));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Con nai",false));
+        answerList2.add(new Answer("Con gà",false));
+        answerList2.add(new Answer("Con ốc",true));
+        answerList2.add(new Answer("Con chó ",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("Quả dứa",false));
+        answerList3.add(new Answer("Quả mít",false));
+        answerList3.add(new Answer("Quả nhãn",true));
+        answerList3.add(new Answer("Quả cóc",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Hoaa đào",false));
+        answerList4.add(new Answer("Hoa mai",false));
+        answerList4.add(new Answer("Hoa phượng",false));
+        answerList4.add(new Answer("Hoa trinh nữ",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Phục phà phục phịch.\n" +
+                "Chân quỳ tay chống? Là con gì?",answerList));
+        questionList.add(new Question(2,"Con gì chân ngắn. Mà lại có màng. Mỏ bẹt màu vàng. Hay kêu cạp cạp.Là con gì?",answerList1));
+        questionList.add(new Question(3,"Vừa bằng quả ổi.\n Vừa nổi vừa chìm.\nLaf con gì??",answerList2));
+        questionList.add(new Question(4,"Da cóc mà bọc bột lọc, \n" +
+                "Bột lọc mà bọc hòn than?\n" +
+                "Là quả gì?",answerList3));
+        questionList.add(new Question(5,"Hoa gì ẹ thẹn bên đường ??",answerList4));
         return questionList;
 
     }
@@ -169,6 +187,10 @@ public class DVLV1Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
+                tvAnswer1.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer2.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer3.setBackgroundResource(R.drawable.brow_conner);
+                tvAnswer4.setBackgroundResource(R.drawable.brow_conner);
             }
         });
 

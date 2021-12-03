@@ -80,28 +80,46 @@ public class TVLV2Activity extends AppCompatActivity implements View.OnClickList
     }
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
+
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("A",true));
-        answerList.add(new Answer("B",false));
-        answerList.add(new Answer("C",false));
-        answerList.add(new Answer("D",false));
+        answerList.add(new Answer("Mèo",false));
+        answerList.add(new Answer("Hộp bút",false));
+        answerList.add(new Answer("Áo len",false));
+        answerList.add(new Answer("Thợ mỏ",true));
 
         List<Answer> answerList1 = new ArrayList<>();
-        answerList1.add(new Answer("A",false));
-        answerList1.add(new Answer("B",false));
-        answerList1.add(new Answer("C",false));
-        answerList1.add(new Answer("D",true));
+        answerList1.add(new Answer("Đồng hồ",false));
+        answerList1.add(new Answer("Đi học",true));
+        answerList1.add(new Answer("Áo khoác",false));
+        answerList1.add(new Answer("Con chó ",false));
 
         List<Answer> answerList2 = new ArrayList<>();
-        answerList2.add(new Answer("A",false));
-        answerList2.add(new Answer("B",false));
-        answerList2.add(new Answer("C",true));
-        answerList2.add(new Answer("D",false));
+        answerList2.add(new Answer("Em đang đi học",false));
+        answerList2.add(new Answer("Em đang quét nhà",false));
+        answerList2.add(new Answer("Em là học sinh lớp 2",true));
+        answerList2.add(new Answer("Em đang ăn cơm ",false));
+
+        List<Answer> answerList3 = new ArrayList<>();
+        answerList3.add(new Answer("là",false));
+        answerList3.add(new Answer("Em",true));
+        answerList3.add(new Answer("Học sinh",false));
+        answerList3.add(new Answer("Lớp 2",false));
+        List<Answer> answerList4 = new ArrayList<>();
+        answerList4.add(new Answer("Em",false));
+        answerList4.add(new Answer("là",false));
+        answerList4.add(new Answer("lớp 2",false));
+        answerList4.add(new Answer("học sinh lớp 2",true));
 
 
-        questionList.add(new Question(1,"ABCD",answerList));
-        questionList.add(new Question(2,"ABCD",answerList1));
-        questionList.add(new Question(3,"ABCD",answerList2));
+
+
+        questionList.add(new Question(1,"Từ nào sau chỉ người ?",answerList));
+        questionList.add(new Question(2,"Từ nào sau chỉ hành động ?",answerList1));
+        questionList.add(new Question(3,"Câu nào sau đây là câu giới thiệu ? ",answerList2));
+        questionList.add(new Question(4,"Chủ ngữ trong câu : \n" +
+                "\"Em là học sinh lớp 2\" là:  .",answerList3));
+        questionList.add(new Question(5,"Vị ngữ trong câu sau là ? \n" +
+                "\"Em là học sinh lớp 2\" ",answerList4));
         return questionList;
 
     }

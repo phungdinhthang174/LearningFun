@@ -28,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Made by Group 6"
+            android:text="Made by Group 6 \n Phiên bản ứng đụng : V1.1.12.21\n
+Android APK version 7.1.1\n Android Studio 2020.3.1 Arctic fox"
             android:textAlignment="center"
             android:textColor="@color/white"
             />

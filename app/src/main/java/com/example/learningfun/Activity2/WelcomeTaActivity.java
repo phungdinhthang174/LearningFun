@@ -23,6 +23,6 @@ public class WelcomeTaActivity extends AppCompatActivity {
                 startActivity(new Intent(WelcomeTaActivity.this, EnglishActivity.class));
                 finish();
             }
-        },2500);
+        },2300);
     }
 }

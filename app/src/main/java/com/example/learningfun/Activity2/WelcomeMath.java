@@ -23,6 +23,6 @@ public class WelcomeMath extends AppCompatActivity {
                 startActivity(new Intent(WelcomeMath.this, MathActivity.class));
                 finish();
             }
-        },2500);
+        },2300);
     }
 }

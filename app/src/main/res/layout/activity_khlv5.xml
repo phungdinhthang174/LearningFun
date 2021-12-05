@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+
     android:background="@drawable/bg"
     tools:context=".KhoaHoc.KHLV5Activity">
 
@@ -79,8 +80,8 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
-            android:layout_marginRight="50dp"
+            android:textSize="15dp"
+            android:layout_marginRight="52dp"
             android:id="@+id/btn_dapan1kh5"
             />
         <TextView
@@ -92,12 +93,12 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:id="@+id/btn_dapan2kh5"
             />
         <TextView
             android:layout_marginTop="30dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginRight="52dp"
             android:layout_width="170dp"
             android:layout_height="70dp"
             android:background="@drawable/brow_conner"
@@ -105,7 +106,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:id="@+id/btn_dapan3kh5"
             />
         <TextView
@@ -118,7 +119,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:id="@+id/btn_dapan4kh5"
             />
 

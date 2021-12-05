@@ -118,7 +118,7 @@ public class DVLV1Activity extends AppCompatActivity implements View.OnClickList
         questionList.add(new Question(1,"Phục phà phục phịch.\n" +
                 "Chân quỳ tay chống? Là con gì?",answerList));
         questionList.add(new Question(2,"Con gì chân ngắn. Mà lại có màng. Mỏ bẹt màu vàng. Hay kêu cạp cạp.Là con gì?",answerList1));
-        questionList.add(new Question(3,"Vừa bằng quả ổi.\n Vừa nổi vừa chìm.\nLaf con gì??",answerList2));
+        questionList.add(new Question(3,"Vừa bằng quả ổi.\n Vừa nổi vừa chìm.\n Là con gì??",answerList2));
         questionList.add(new Question(4,"Da cóc mà bọc bột lọc, \n" +
                 "Bột lọc mà bọc hòn than?\n" +
                 "Là quả gì?",answerList3));

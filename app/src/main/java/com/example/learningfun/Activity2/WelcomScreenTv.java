@@ -23,6 +23,6 @@ public class WelcomScreenTv extends AppCompatActivity {
                 startActivity(new Intent(WelcomScreenTv.this, TvActivity.class));
                 finish();
             }
-        },2500);
+        },2300);
     }
 }

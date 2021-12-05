@@ -82,10 +82,10 @@ public class DVLV2Activity extends AppCompatActivity implements View.OnClickList
     private List<Question> getListQuestion(){
         List<Question> questionList = new ArrayList<>();
         List<Answer> answerList = new ArrayList<>();
-        answerList.add(new Answer("Sông Hương; sông Gianh",false));
-        answerList.add(new Answer("Sông Nhật Lệ; sông Hương",true));
-        answerList.add(new Answer("Sông Mã; Sông Nhật Lệ ",false));
-        answerList.add(new Answer("Sông Hồng; sông Hương",false));
+        answerList.add(new Answer("Sông Hương; \nsông Gianh",false));
+        answerList.add(new Answer("Sông Nhật Lệ;\n sông Hương",true));
+        answerList.add(new Answer("Sông Mã;\n Sông Nhật Lệ ",false));
+        answerList.add(new Answer("Sông Hồng;\n sông Hương",false));
 
         List<Answer> answerList1 = new ArrayList<>();
         answerList1.add(new Answer("Cây phượng",false));
@@ -107,8 +107,8 @@ public class DVLV2Activity extends AppCompatActivity implements View.OnClickList
         List<Answer> answerList4 = new ArrayList<>();
         answerList4.add(new Answer("Mèo mun",false));
         answerList4.add(new Answer("Mèo kitty",false));
-        answerList4.add(new Answer("Mèo Doraemon",false));
-        answerList4.add(new Answer("Mèo mướp",true));
+        answerList4.add(new Answer("Mèo Doraemon",true));
+        answerList4.add(new Answer("Mèo mướp",false));
 
 
 

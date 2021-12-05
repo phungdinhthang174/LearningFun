@@ -23,6 +23,6 @@ public class WelcomeKhActivity extends AppCompatActivity {
                 startActivity(new Intent(WelcomeKhActivity.this, KHActivity.class));
                 finish();
             }
-        },2500);
+        },2300);
     }
 }

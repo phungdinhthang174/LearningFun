@@ -61,7 +61,7 @@
 
     </RelativeLayout>
     <GridLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
         android:rowCount="2"
@@ -79,7 +79,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:layout_marginRight="50dp"
             android:id="@+id/btn_dapan1ta5"
             />
@@ -92,7 +92,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:id="@+id/btn_dapan2ta5"
             />
         <TextView
@@ -105,7 +105,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:id="@+id/btn_dapan3ta5"
             />
         <TextView
@@ -118,7 +118,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:id="@+id/btn_dapan4ta5"
             />
 

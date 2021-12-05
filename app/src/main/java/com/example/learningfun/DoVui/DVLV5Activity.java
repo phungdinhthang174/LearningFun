@@ -108,7 +108,7 @@ public class DVLV5Activity extends AppCompatActivity implements View.OnClickList
         answerList3.add(new Answer("sống cùng những con gấu tuyết",false));
         List<Answer> answerList4 = new ArrayList<>();
         answerList4.add(new Answer("7 con",false));
-        answerList4.add(new Answer("9 con",false));
+        answerList4.add(new Answer("6 con",false));
         answerList4.add(new Answer("10 con",false));
         answerList4.add(new Answer("9 con",true));
 

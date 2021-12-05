@@ -23,6 +23,6 @@ public class WelcomeSceenDovuiActivity extends AppCompatActivity {
                 startActivity(new Intent(WelcomeSceenDovuiActivity.this, DoVuiActivity.class));
                 finish();
             }
-        },2500);
+        },2300);
     }
 }

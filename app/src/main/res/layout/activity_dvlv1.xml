@@ -30,19 +30,19 @@
         android:layout_marginTop="30dp"
 
         >
+
         <TextView
-            android:layout_marginTop="40dp"
+            android:id="@+id/tv_cauhoi_dvLV1"
             android:layout_width="match_parent"
             android:layout_height="270dp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/brow_conner"
-            android:text="Câu hỏi??"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textAlignment="center"
             android:paddingTop="70dp"
+            android:text="Câu hỏi??"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:id="@+id/tv_cauhoi_dvLV1"
-            />
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_questionNumdv1"

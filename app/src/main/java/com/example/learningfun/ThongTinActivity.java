@@ -23,6 +23,7 @@ public class ThongTinActivity extends AppCompatActivity {
     Button btnCamonhoc,btnThongtin,btn_Chinhsua,btnDangxuat;
     TextView tvsdt,tvHoten,tvNgaysinh,tvemail;
     String ngaySinh,hoten,sdt,email;
+    TextView tvHt;
 
     TextInputEditText edHoten,edSdt,edEmail,edNgaysinh;
     Button btnSaveTT;
@@ -93,6 +94,7 @@ public class ThongTinActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                          ngaySinh = edNgaysinh.getText().toString();
+
                          email = edEmail.getText().toString();
                          sdt = edSdt.getText().toString();
                          hoten = edHoten.getText().toString();

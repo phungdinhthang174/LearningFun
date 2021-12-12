@@ -19,6 +19,8 @@ public class DbHelper extends SQLiteOpenHelper {
         //thong tin
         String Table_TT = "create table if not exists TT(hoten text primary key,email text,ngsinh text,sdt text)";
         sqLiteDatabase.execSQL(Table_TT);
+        String insert_TT = "insert into Question values ('Phùng Đình Thắng','thangpdph15150@gmail.com','28/05/2002','0123456789')";
+        sqLiteDatabase.execSQL(insert_TT);
         //cau hoi
        String Table_Question = "create table if not exists Question(number integer primary key , content text,option1 text,option2 text, option3 text , option4 text,answer text )";
        sqLiteDatabase.execSQL(Table_Question);
